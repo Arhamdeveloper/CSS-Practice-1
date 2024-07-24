@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navbar start */
+
+#navbar{
+    background-color: #21383c;
+}
+#blog{
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+}
+.nav{
+    display: inline-block;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 20px;
+}
+#ul{
+    display: inline-block;
+    margin-left: 130px;
+}
+#heading{
+    display: inline-block;
+}
+li{
+    margin: 30px;
+}
+li:hover{
+  
+    text-decoration: underline;
+    text-decoration-color: white;
+    
+}
+/* navbar end */
+/* slider start */
+#slider{
+    background-color: #395b63;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    
+}
+#sliderimg{
+    width: 70%;
+    height: 330px;
+    margin-left: 200px;
+    top: 180px;
+    position: absolute;
+    border: 6px solid white;
+    z-index: 4;
+}
+#slidertext{
+    width: 25%;
+    height: 150px;
+    position: relative;
+    margin-left: 210px;
+    top: -70px;
+    background-color: rgba(0, 0, 0, 0.534);
+    z-index:4;
+}
+#sliderheading{
+    color: white;
+}
+#sliderpara{
+    color: white;
+}
+/* slider end */
+/* card start */
+#cards{
+    background-color: #b6b6b6;
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: -40;
+    margin-top: -168px;
+    z-index: 2;
+}
+.card{
+    display: inline-block;
+    width: 20%;
+    height: 300px;
+    margin-top: 275px;
+    margin-right: 25px;
+    margin-left: 25px;
+    background-color: #b6b6b6;
+}
+.cardimg{
+    width: 94%;
+    height: 80px;
+    border: 6px solid white;
+}
+.cardheading{
+    color: #395b63;
+}
+.button{
+    background-color: #849d3c;
+    color: white;
+    
+}
+/* card end */
+/* about start */
+#about{
+    background-color: #395b63;
+    width: 100%;
+    height: 300px;
+    margin-top: 400px;
+    position: relative;
+}
+#who{
+    display: inline-block;
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 30%;
+    margin-top: 91px;
+    margin-left: 33px;
+}
+#we{
+    display: inline-block;
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 30%;
+    margin-left: 10px;
+}
+#are{
+    display: inline-block;
+    /* border: 1px solid black; */
+    height: 200px;
+    width: 30%;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+#aboutheading{
+    color: white;
+    margin: 3px;
+}
+.image{
+    width: 45%;
+    display: inline-block;
+    /* border: 1px solid black; */
+    height: 100px ;
+}
+#imgs{
+    width: 100%;
+    height: 95px;
+    border: 2px solid black;
+}
+.param {
+    color: white;
+}
+#a{
+    margin: 8px;
+}
+#aboutheading1{
+    color: white;
+    margin: 3px;
+}
+#aboutimg2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: inline-block;
+}
+#c{
+    display: inline-block;
+    color: white;
+    margin-left: 130px;
+}
+#aboutheading2{
+    color: white;
+    margin: 3px;
+}
+#input{
+    width: 95%;
+    height: 25px;
+    background-color: #1a2e30;
+    margin-right: 10px;
+}
+#but{
+    width: 50%;
+    height: 40px;
+    color: white;
+    background-color: #1a2e30;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+/* about end */
